@@ -1,0 +1,244 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.dashboard{
+
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    height: 100vh;
+    background-color:#d63447;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+.logo svg{
+    display: flex;
+    fill: white;
+    width: 50px;
+    height: 50px;
+}
+.buttons{
+    margin-left: 30px;
+    gap: 15px;
+}
+.buttons , .settings{
+
+    display: flex;
+    flex-direction: column;
+}
+.dashboard .buttons svg{
+    margin-right: 10px;
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+.settings{
+    margin-top: 50px;
+}
+.dashboard a{
+    text-decoration: none;
+    color: white;
+}
+.buttons a{
+
+    font-weight: 600;
+}
+
+.interface{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 4fr;
+}
+.searchBar svg{
+    width: 25px;
+    height: 25px;
+}
+.welcomeText{
+
+display: grid;
+grid-template-columns: 0.5fr 5.5fr 2fr;
+}
+.welcomeBtn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.welcomeText button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d63447;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    margin-right: 25px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+}
+.articles{
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 4.5fr 2fr;
+    background-color: #e7e5e4;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+}
+.logoProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#avatar  {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+#avatarTwo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.searchBar{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+.rightSearch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.search{
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+.search input{
+    
+    border: none;
+    background-color: #d4d4d8;
+    width: 60%;
+    height: 30%;
+    border-radius: 15px;
+}
+.projects{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 50px;
+ 
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust column width as needed */
+    justify-items: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+
+}
+.cell{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+     display: grid;
+    grid-template-rows: 4fr 1fr;
+    background-color: white;
+    border-left: 9px solid orange;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+.cell svg{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+.svg{
+    display: flex;
+    justify-content: flex-end;
+}
+.textContent,
+.svg{
+    margin: 10px;
+}
+.textContent{
+    margin-top: 30px;
+}
+.rightPart{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.announcements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsTable{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;    
+}
+h3{
+    color: black;
+}
+.textContent{
+    color: gray;
+}
+button:hover{
+    background-color: #25485b;
+}
+.newsTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: flex-start; 
+}
+.titleNews , .textNews{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.textNews{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#link { 
+    text-decoration: none;
+    color: rgb(115, 115, 172);
+}
+
+.titlu{
+   
+    grid-auto-columns: 1/3;
+}
+.trending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25% ;
+    align-items: center;
+}
+.logoTrending{
+    display: flex;
+    
+    margin: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
